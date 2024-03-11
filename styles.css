@@ -1,20 +1,64 @@
-body{
+body {
     background-color: #fffeea;
     font-family: Tahoma, Verdana, sans-serif;
+    text-align: center;
+    color: #000080;
+    font-size: 20px;
+    display:flex;
+    flex-direction: row;
 }
 
 .title {
     margin: 30px;
     /* border:1px solid gray; */
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 header button {
     border: 1px solid #000058;
-    border-radius: 6px; /* this adjusts the roundness of the button*/
-    padding: 10px 20px; 
+    border-radius: 6px;
+    /* this adjusts the roundness of the button*/
+    padding: 10px 20px;
     background-color: transparent;
+    font-weight: bold;
+    width: 150px;
+    height: 100px;
 
 }
+
+span {
+    font-weight: bold;
+}
+
+.purple-rectangle {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 15%;
+    height: 100%;
+    background-color: #400080;
+
+}
+
+section {
+    margin-right: 240px
+}
+
+.right-penguin {
+    float: left;
+    /* Float the image to the right */
+    margin-left: 10px;
+    /* Add some space between the image and text */
+}
+
+.left-penguin {
+    float:right; 
+    margin-right:10px;
+}
+
+.wrap{
+    text-align: left;
+}
+
