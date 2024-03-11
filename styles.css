@@ -2,8 +2,8 @@ body {
     background-color: #fffff0;
     font-family: Tahoma, Verdana, sans-serif;
     text-align: center;
-    color: #336699;
-    font-size: 30px;
+    color: #483d8b ;
+    font-size: 26px;
     display:flex;
     flex-direction: row;
 }
@@ -17,7 +17,7 @@ body {
 }
 
 header button {
-    border: 1px solid #000058;
+    border: 1px solid #483d8b ;
     border-radius: 6px;
     /* this adjusts the roundness of the button*/
     padding: 10px 20px;
@@ -39,7 +39,7 @@ span {
     right: 0;
     width: 15%;
     height: 100%;
-    background-color: #400080;
+    background-color: #483d8b ;
 
 }
 
@@ -96,15 +96,16 @@ footer {
 }
 
 .blue-button{
-    background-color: #000080;
+    background-color: #483d8b ;
     color:white;
-    border: 1px solid #000058;
+    border: 1px solid #336699;
     border-radius: 6px;
     padding: 10px 20px;
     margin-bottom: 60px; 
-    width: 150px;
-    height: 50px;
+    width: 330px;
+    height: 80px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
 }
 
 
