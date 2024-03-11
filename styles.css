@@ -1,11 +1,20 @@
 body{
     background-color: #fffeea;
     font-family: Tahoma, Verdana, sans-serif;
-    margin: auto;
-    max-width: 1400px;
 }
 
-header {
-    
-    
+.title {
+    margin: 30px;
+    /* border:1px solid gray; */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header button {
+    border: 1px solid #000058;
+    border-radius: 6px; /* this adjusts the roundness of the button*/
+    padding: 10px 20px; 
+    background-color: transparent;
+
 }
