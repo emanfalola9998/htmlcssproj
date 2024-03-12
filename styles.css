@@ -2,9 +2,9 @@ body {
     background-color: #fffff0;
     font-family: Tahoma, Verdana, sans-serif;
     text-align: center;
-    color: #483d8b ;
+    color: #483d8b;
     font-size: 26px;
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 
@@ -20,7 +20,7 @@ body {
 }
 
 header button {
-    border: 1px solid #483d8b ;
+    border: 1px solid #483d8b;
     border-radius: 6px;
     /* this adjusts the roundness of the button*/
     padding: 10px 20px;
@@ -42,38 +42,42 @@ span {
     right: 0;
     width: 15%;
     height: 100%;
-    background-color: #483d8b ;
-    border: 1px solid black ;
+    background-color: #483d8b;
+    border: 1px solid black;
     border-radius: 6px;
 }
 
 
 @media (max-width: 768px) {
     .purple-rectangle {
-        width: 2%; /* Adjust width for smaller screens */
+        width: 2%;
+        /* Adjust width for smaller screens */
     }
-    body{
-        font-size: 12px;
+
+    body {
+        font-size: 20px;
     }
 }
 
 
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
     .purple-rectangle {
-        width: 30%; /* Adjust width for larger screens */
+        width: 30%;
+        /* Adjust width for larger screens */
     }
 
-    body{
+    body {
         font-size: 14px;
     }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 2000px) {
     .purple-rectangle {
-        width: 40%; /* Adjust width for larger screens */
+        width: 40%;
+        /* Adjust width for larger screens */
     }
 
-    body{
+    body {
         font-size: 20px;
     }
 }
@@ -82,58 +86,57 @@ span {
 /* Media query for larger screens */
 @media (min-width: 2000px) {
     .purple-rectangle {
-        width: 40%; 
+        width: 40%;
     }
 }
 
 section {
     /* margin-right: 240px */
-        word-wrap: break-word;
-        
-    
+    word-wrap: break-word;
 }
 
-.right-penguin {
+/* .right-penguin {
     float: right;
-    /* Float the image to the right */
+
     /* margin-left: 10px; */
-    /* Add some space between the image and text */
-}
+/* Add some space between the image and text */
+/* } */
 
 .left-penguin {
-    float:left; 
+    float: left;
     /* margin-right:10px; */
 }
 
-.wrap{
+.wrap {
     /* text-align: left;
      */
-     display: flex;
-     align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .wrap-left {
     margin-right: 10px;
-    float:left;
+    float: left;
 }
 
 .wrap-right {
-    margin-right: 10px; /* Adjust the margin as needed */
-    float:right;
+    margin-right: 10px;
+    /* Adjust the margin as needed */
+    float: right;
 }
 
 footer {
     background-color: #ffff80;
-    width:100%;
+    width: 100%;
 }
 
-.blue-button{
-    background-color: #483d8b ;
-    color:white;
+.blue-button {
+    background-color: #483d8b;
+    color: white;
     border: 1px solid #336699;
     border-radius: 6px;
     padding: 10px 20px;
-    margin-bottom: 60px; 
+    margin-bottom: 60px;
     width: 330px;
     height: 80px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -142,12 +145,13 @@ footer {
 
 
 
-img, h1, p {
+img,
+h1,
+p {
     margin-top: 20px;
-    padding: 20px; 
+    padding: 20px;
 }
 
-div img{
-    width:300px;
+div img {
+    width: 300px;
 }
-
